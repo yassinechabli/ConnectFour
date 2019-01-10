@@ -1,14 +1,11 @@
 /*
- * copyright 2015 ; devloppée en java ,c ,c++  ;
- *   Edités par chabli mohammed yassine et astaoui mohamed  
+ * copyright 2015   ;
+ *   Edités par chabli mohammed yassine
  *     
  *   Classe :main.java ;
  *   
- *   Defenition:cette classe permette de gestionner les composantes java swing ;
- *   			il s'interesse pour l'interface  de l'aplication;
+ *   Defenition:gerer les composantes;
  * 
- * 
- *   Projet C++ pour MR FARHAOUI Youssef;
  *  
  *   Jeu:PUISSANCE 4 ;
  *  
@@ -186,7 +183,7 @@ public class Main extends JFrame {
 		           }
 		           
 			
-         //____________ajout des labels orange en bas qui difinissent la colonnes ou le joueurs veut remplir___________________
+         //____________ajout des labels oranges en bas qui difinissent la colonne ou le joueur veut remplir___________________
    		 
     	   for(int j=0;j<7;j++){
                MyLabel o=new MyLabel(6,j,Color.ORANGE,""+j);

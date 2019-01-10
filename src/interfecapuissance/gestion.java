@@ -1,13 +1,10 @@
 /*
- * copyright 2015 ; devloppée en java ,c ,c++  ;
- *   Edités par chabli mohammed yassine et astaoui mohamed  
+ * copyright 2015 
+ *    chabli mohammed yassine 
  *     
- *   Classe :gestion.java ;
+ *   Classe :gestion ;
  *   
- *   Defenition:les traitment de cette classes possede plusieurs fonctions dont chacune permette de realiser un but précis
- * 
- * 
- *   Projet C++ pour MR FARHAOUI Youssef;
+ *   implementation of the logical solution
  *  
  *   Jeu:PUISSANCE 4 ;
  *  
@@ -48,7 +45,7 @@ public static void setTab(MyLabel[][] tab) {
 
 
 /*
- * fonction d'ajout d'un label dans le tableu . en faite c'un un tableau de type Mylabels qui possede tous les elements 
+ * fonction d'ajout d'un label dans le tableu . tableau de type Mylabels qui possede tous les elements 
  */
 public static  void ajouter(MyLabel l, int i,int j){
 	tab[i][j]=l;
@@ -57,7 +54,7 @@ public static  void ajouter(MyLabel l, int i,int j){
 }
 
 /*
- * fontion lister() permet de lister la labels du tableau au console juste pour suiver le chemain du jeu 
+ *  lister la labels du tableau au console juste pour suiver le chemain du jeu 
  */
 public  static void lister(){
 	for(int i=0;i<=6;i++){
@@ -68,9 +65,9 @@ public  static void lister(){
 }
 
 /*
- * dans cette etape , a chaque fois que le joueur fait un clique ; on doit chercher s'il est gagné ou pas
+ * √† chaque fois que le joueur fait un clique ; on doit chercher s'il a gagne  ou pas
  *  pour cela on fait 4 verification ; les fonctions contient des prototypes comprehensible
- *   au traitement de chacune pour savoir qu'est ce qu'elle faite
+ *   au traitement de chacune .
  */
 
 public static void verification_horizontale(joueur a) 
@@ -205,36 +202,5 @@ public static void rejouer(){
 		   
 	  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-	
-	
-	
-	
-
-	
-
 
 }
